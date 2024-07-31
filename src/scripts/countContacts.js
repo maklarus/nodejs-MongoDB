@@ -7,4 +7,4 @@ export const countContacts = async () => {
   console.log(parsedData.length);
 };
 
-console.log(await countContacts());
+countContacts();
